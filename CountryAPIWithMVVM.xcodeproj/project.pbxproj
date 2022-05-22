@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0958DD280EDD5CA2EF0823C /* Pods_CountryAPIWithMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7FB4F02DE7EDA5C954B3AA /* Pods_CountryAPIWithMVVM.framework */; };
 		EBBD35C8283AAC3600B70599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35C7283AAC3600B70599 /* AppDelegate.swift */; };
 		EBBD35CA283AAC3600B70599 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35C9283AAC3600B70599 /* SceneDelegate.swift */; };
-		EBBD35CC283AAC3600B70599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35CB283AAC3600B70599 /* ViewController.swift */; };
 		EBBD35CF283AAC3600B70599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBD35CD283AAC3600B70599 /* Main.storyboard */; };
 		EBBD35D1283AAC3800B70599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBD35D0283AAC3800B70599 /* Assets.xcassets */; };
 		EBBD35D4283AAC3800B70599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBD35D2283AAC3800B70599 /* LaunchScreen.storyboard */; };
+		EBBD35DF283AACEC00B70599 /* CountryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35DE283AACEC00B70599 /* CountryDetailsViewController.swift */; };
+		EBBD35E7283AAD1400B70599 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35E6283AAD1400B70599 /* CountryViewModel.swift */; };
+		EBBD35EB283AAD3700B70599 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35E9283AAD3700B70599 /* SwiftyJSON.swift */; };
+		EBBD35EC283AAD3700B70599 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35EA283AAD3700B70599 /* Webservices.swift */; };
+		EBBD35EE283AADCB00B70599 /* NationPopulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35ED283AADCB00B70599 /* NationPopulation.swift */; };
+		EBBD35F0283AADF000B70599 /* SourceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD35EF283AADF000B70599 /* SourceDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01536076F8A52465885F65A7 /* Pods-CountryAPIWithMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryAPIWithMVVM.release.xcconfig"; path = "Target Support Files/Pods-CountryAPIWithMVVM/Pods-CountryAPIWithMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		23D429BD75DC3D51CDCAA029 /* Pods-CountryAPIWithMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryAPIWithMVVM.debug.xcconfig"; path = "Target Support Files/Pods-CountryAPIWithMVVM/Pods-CountryAPIWithMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		4A7FB4F02DE7EDA5C954B3AA /* Pods_CountryAPIWithMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountryAPIWithMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBD35C4283AAC3600B70599 /* CountryAPIWithMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryAPIWithMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBD35C7283AAC3600B70599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBD35C9283AAC3600B70599 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBBD35CB283AAC3600B70599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBBD35CE283AAC3600B70599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBBD35D0283AAC3800B70599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBBD35D3283AAC3800B70599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBBD35D5283AAC3800B70599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBD35DE283AACEC00B70599 /* CountryDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewController.swift; sourceTree = "<group>"; };
+		EBBD35E6283AAD1400B70599 /* CountryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		EBBD35E9283AAD3700B70599 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		EBBD35EA283AAD3700B70599 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		EBBD35ED283AADCB00B70599 /* NationPopulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationPopulation.swift; sourceTree = "<group>"; };
+		EBBD35EF283AADF000B70599 /* SourceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0958DD280EDD5CA2EF0823C /* Pods_CountryAPIWithMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EDD9AFFC716A58DB092B262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FB4F02DE7EDA5C954B3AA /* Pods_CountryAPIWithMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBBD35BB283AAC3600B70599 = {
 			isa = PBXGroup;
 			children = (
 				EBBD35C6283AAC3600B70599 /* CountryAPIWithMVVM */,
 				EBBD35C5283AAC3600B70599 /* Products */,
+				F53FF9D5F7F1B13FF87558BE /* Pods */,
+				2EDD9AFFC716A58DB092B262 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +83,59 @@
 			children = (
 				EBBD35C7283AAC3600B70599 /* AppDelegate.swift */,
 				EBBD35C9283AAC3600B70599 /* SceneDelegate.swift */,
-				EBBD35CB283AAC3600B70599 /* ViewController.swift */,
+				EBBD35E8283AAD3700B70599 /* NetworkLayer */,
+				EBBD35E5283AAD1400B70599 /* ViewModel */,
+				EBBD35E0283AAD0D00B70599 /* Models */,
+				EBBD35DB283AAC9600B70599 /* ViewControllers */,
 				EBBD35CD283AAC3600B70599 /* Main.storyboard */,
 				EBBD35D0283AAC3800B70599 /* Assets.xcassets */,
 				EBBD35D2283AAC3800B70599 /* LaunchScreen.storyboard */,
 				EBBD35D5283AAC3800B70599 /* Info.plist */,
 			);
 			path = CountryAPIWithMVVM;
+			sourceTree = "<group>";
+		};
+		EBBD35DB283AAC9600B70599 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBBD35DE283AACEC00B70599 /* CountryDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EBBD35E0283AAD0D00B70599 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBBD35ED283AADCB00B70599 /* NationPopulation.swift */,
+				EBBD35EF283AADF000B70599 /* SourceDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBBD35E5283AAD1400B70599 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EBBD35E6283AAD1400B70599 /* CountryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EBBD35E8283AAD3700B70599 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EBBD35E9283AAD3700B70599 /* SwiftyJSON.swift */,
+				EBBD35EA283AAD3700B70599 /* Webservices.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		F53FF9D5F7F1B13FF87558BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23D429BD75DC3D51CDCAA029 /* Pods-CountryAPIWithMVVM.debug.xcconfig */,
+				01536076F8A52465885F65A7 /* Pods-CountryAPIWithMVVM.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBBD35D8283AAC3800B70599 /* Build configuration list for PBXNativeTarget "CountryAPIWithMVVM" */;
 			buildPhases = (
+				9BD05697B04B3C50D406050E /* [CP] Check Pods Manifest.lock */,
 				EBBD35C0283AAC3600B70599 /* Sources */,
 				EBBD35C1283AAC3600B70599 /* Frameworks */,
 				EBBD35C2283AAC3600B70599 /* Resources */,
+				6970BBAD74F32D84F7F807E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +206,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6970BBAD74F32D84F7F807E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryAPIWithMVVM/Pods-CountryAPIWithMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CountryAPIWithMVVM/Pods-CountryAPIWithMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryAPIWithMVVM/Pods-CountryAPIWithMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD05697B04B3C50D406050E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CountryAPIWithMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBBD35C0283AAC3600B70599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBBD35CC283AAC3600B70599 /* ViewController.swift in Sources */,
 				EBBD35C8283AAC3600B70599 /* AppDelegate.swift in Sources */,
+				EBBD35DF283AACEC00B70599 /* CountryDetailsViewController.swift in Sources */,
+				EBBD35EE283AADCB00B70599 /* NationPopulation.swift in Sources */,
+				EBBD35E7283AAD1400B70599 /* CountryViewModel.swift in Sources */,
 				EBBD35CA283AAC3600B70599 /* SceneDelegate.swift in Sources */,
+				EBBD35F0283AADF000B70599 /* SourceDetails.swift in Sources */,
+				EBBD35EB283AAD3700B70599 /* SwiftyJSON.swift in Sources */,
+				EBBD35EC283AAD3700B70599 /* Webservices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		EBBD35D9283AAC3800B70599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D429BD75DC3D51CDCAA029 /* Pods-CountryAPIWithMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +431,7 @@
 		};
 		EBBD35DA283AAC3800B70599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01536076F8A52465885F65A7 /* Pods-CountryAPIWithMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
